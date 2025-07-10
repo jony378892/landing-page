@@ -139,6 +139,128 @@ main {
   font-family: "Inter", sans-serif;
 }
 
+/* Review Section */
+.review-section {
+  margin: 80px 0;
+}
+
+.reviews {
+  display: flex;
+  gap: 16px;
+}
+
+.review-header {
+  text-align: center;
+}
+
+.review-block {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.review-icons {
+  display: flex;
+  gap: 3.3px;
+}
+
+.review-details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: start;
+}
+
+.review-details p {
+  margin: 3px 0;
+}
+
+.review-title {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.reviewer-image {
+  height: 45px;
+  border-radius: 100%;
+}
+
+.reviewer-name {
+  font-size: 15px;
+  margin: 0px;
+  color: #4c4c4c;
+}
+
+.review-date {
+  font-size: 14px;
+  color: #757575;
+}
+
+/* Contact */
+.contact {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 0;
+  font-family: "Inter", sans-serif;
+}
+
+.contact-form {
+  width: 50%;
+}
+
+.contact-form-title {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  box-sizing: border-box;
+  border: 1px solid rgb(184, 183, 183);
+  border-radius: 6px;
+  padding: 15px;
+  width: 100%;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  font-size: 15px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+  display: block;
+}
+
+.form-submit-button {
+  margin-top: 10px;
+  width: 100%;
+}
+
 /* Footer */
 footer {
   padding: 90px 0;
