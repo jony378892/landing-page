@@ -98,7 +98,8 @@ main {
   border-radius: 40px;
 }
 
-/* Statictic Section */
+/* Productivity Section */
+
 .productive {
   background-color: rgba(78, 71, 255, 0.15);
   padding: 22px;
@@ -220,15 +221,15 @@ main {
 }
 
 .contact-form-title {
-  font-size: 70px;
+  font-size: 65px;
   font-weight: 700;
 }
 
 .contact-form label {
   display: block;
-  font-size: 15px;
-  margin-top: 10px;
-  margin-bottom: 6px;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 8px;
 }
 
 .contact-form input,
